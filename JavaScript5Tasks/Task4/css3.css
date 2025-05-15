@@ -1,0 +1,43 @@
+#together {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 580px;
+    margin-top: 250px;
+    padding: 0 10px;
+}
+
+
+#button {
+    width: auto;
+    padding: 5px 10px;
+}
+
+
+
+#circle1{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+}
+
+#circle2{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+
+}
+
+#circle3{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+
+}

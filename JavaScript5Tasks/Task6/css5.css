@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(191, 183, 226);
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 60px;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+}
+
+.tip {
+    position: fixed;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-10px);
+    background-color: purple;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+#button1,
+#button2 {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+
+}
+
+#tip1{
+    display: none;
+}
+
+#tip2{
+    display: none;
+}

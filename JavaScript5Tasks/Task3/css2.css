@@ -1,0 +1,60 @@
+body {
+    background-color: #2e7d32; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.field {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    background-color: #388e3c;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.mid-line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    transform: translateX(-1px);
+}
+
+.center-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.goal {
+    position: absolute;
+    width: 10px;
+    height: 80px;
+    background-color: white;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left-goal {
+    left: -10px;
+}
+
+.right-goal {
+    right: -10px;
+}
+
+.ball {
+    position: absolute; 
+    width: 5%; 
+}
