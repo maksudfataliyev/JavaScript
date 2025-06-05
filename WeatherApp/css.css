@@ -1,0 +1,169 @@
+#main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 500px;
+    height: 700px;
+    margin-left: 450px;
+    border-radius: 20px;
+    background-color: #334155; 
+}
+
+#top_fields {
+    display: flex;
+    width: 500px;
+}
+
+#login_field {
+    height: 60px;
+    width: 250px;
+    background-color: #3b82f6; 
+    border-top-left-radius: 20px;
+    border-right: 2px solid #1e40af; 
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+#register_field {
+    height: 60px;
+    width: 250px;
+    background-color: #3b82f6; 
+    border-top-right-radius: 20px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#usernameinput {
+    width: 400px;
+    height: 40px;
+    background-color: #f8fafc; 
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #cbd5e1; 
+}
+
+#big_text{
+    color: white;
+    font-size: xx-large;
+    padding-top: 30px;
+}
+
+#username_text{
+    color: #f1f5f9; 
+    font-size: 1.25em;
+    padding-top: 30px;
+    padding-right: 323px;
+}
+
+#password_text{
+    color: #f1f5f9;
+    font-size: 1.25em;
+    padding-top: 30px;
+    padding-right: 323px;
+    padding-bottom: 20px;
+}
+
+#passwordinput{
+    width: 400px;
+    height: 40px;
+    background-color: #f8fafc;
+    border-radius: 5px;
+    border: 1px solid #cbd5e1;
+}
+
+#loginbutton{
+    margin-top: 100px;
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #10b981;
+}
+
+
+#loginpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color: #334155; 
+    width: 500px;
+    height: 640px;
+}
+
+#registerpage{
+    display: none;
+    flex-direction: column;
+    align-items: center;  
+    background-color: #334155; 
+    width: 500px;
+    height: 640px;
+}
+
+#rbig_text{
+    color: white;
+    font-size: xx-large;
+    padding-top: 30px;
+}
+
+#rusernameinput{
+    width: 400px;
+    height: 40px;
+    background-color: #f8fafc; 
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #cbd5e1; 
+}
+
+#rpasswordinput{
+    width: 400px;
+    height: 40px;
+    background-color: #f8fafc;
+    border-radius: 5px;
+    border: 1px solid #cbd5e1;
+}
+
+#rpassword_text{
+    color: #f1f5f9;
+    font-size: 1.25em;
+    padding-top: 30px;
+    padding-right: 255px;
+    padding-bottom: 20px;
+}
+
+#rpasswordrepeat{
+    width: 400px;
+    height: 40px;
+    background-color: #f8fafc;
+    border-radius: 5px;
+    border: 1px solid #cbd5e1;
+}
+
+#registerbutton{
+    margin-top: 50px;
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #10b981;
+    margin-bottom: 30px;
+}
+
+#rlocationtext{
+    color: #f1f5f9;
+    font-size: 1.25em;
+    padding-top: 30px;
+    padding-right: 178px;
+    padding-bottom: 20px;
+}
+
+#rlocationinput{
+    width: 400px;
+    height: 40px;
+    background-color: #f8fafc;
+    border-radius: 5px;
+    border: 1px solid #cbd5e1;
+};
