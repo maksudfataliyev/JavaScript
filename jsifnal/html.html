@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Новости мира</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Новости мира</h1>
+        <div class="category-selector">
+            <select id="category">
+                <option value="general">Общее</option>
+                <option value="business">Бизнес</option>
+                <option value="sports">Спорт</option>
+                <option value="technology">Технологии</option>
+                <option value="entertainment">Развлечения</option>
+                <option value="health">Здоровье</option>
+                <option value="science">Наука</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <div id="loader" class="hidden">Загрузка новостей...</div>
+        <div id="news-container"></div>
+        <div id="pagination">
+            <button id="prevPage">⬅ Назад</button>
+            <span id="pageNumber">1</span>
+            <button id="nextPage">Вперед ➡</button>
+        </div>
+    </main>
+
+    <script src="./script.js">
+        
+    </script>
+</body>
+</html>
